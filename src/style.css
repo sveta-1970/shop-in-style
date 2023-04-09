@@ -31,3 +31,21 @@ span.cart-number {
   color: #fff;
   border-radius: 800px;
 }
+div.header {
+  background-color: #212529;
+  height: 297px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  color: #fff;
+  text-align: center;
+  padding-top: 85px;
+}
+header p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}

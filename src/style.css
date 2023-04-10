@@ -1,8 +1,12 @@
 div.container {
-  width: 1512px;
+  max-width: 1512px;
   font-size: 16px;
   font-family: Roboto;
   font-weight: 400;
+  background-color: #f8f9fa;
+}
+div.container-fluid {
+  margin: 0 144px;
 }
 a.navbar-brand {
   font-size: 19px;
@@ -11,6 +15,9 @@ ul.navbar-nav {
   flex-direction: row;
   justify-content: space-around;
   width: 160px;
+  position: relative;
+  top: 0;
+  left: -250px;
   /*margin-right: 500px;*/
 }
 li.nav-item {
@@ -20,6 +27,7 @@ li.nav-item {
 .btn-outline-dark {
   width: 113px;
 }
+
 span.cart-number {
   position: relative;
   width: 22.28px;
@@ -34,7 +42,6 @@ span.cart-number {
 div.header {
   background-color: #212529;
   height: 297px;
-  margin-bottom: 96px;
 }
 h1 {
   font-weight: 700;
@@ -49,10 +56,6 @@ div.header p {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-}
-
-div.row {
-  justify-content: center;
 }
 
 div.col {
@@ -78,5 +81,4 @@ div.footer {
   color: #fff;
   text-align: center;
   padding-top: 47px;
-  margin-top: 96px;
 }

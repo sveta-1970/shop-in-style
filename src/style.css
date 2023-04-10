@@ -2,23 +2,21 @@ div.container {
   max-width: 1512px;
   font-size: 16px;
   font-family: Roboto;
-  font-weight: 400;
   background-color: #f8f9fa;
 }
 div.container-fluid {
   margin: 0 144px;
 }
-a.navbar-brand {
-  font-size: 19px;
+div.menu_button {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
 }
+
 ul.navbar-nav {
   flex-direction: row;
   justify-content: space-around;
   width: 160px;
-  position: relative;
-  top: 0;
-  left: -250px;
-  /*margin-right: 500px;*/
 }
 li.nav-item {
   display: block;
@@ -35,7 +33,7 @@ span.cart-number {
   padding: 4.1875px 7.48438px 4.1875px 7.79688px;
   left: 16.72px;
   top: -0.18px;
-  background: #212529;
+  background: hsl(210, 11%, 15%);
   color: #fff;
   border-radius: 800px;
 }
@@ -44,18 +42,13 @@ div.header {
   height: 297px;
 }
 h1 {
-  font-weight: 700;
   font-size: 56px;
-  line-height: 67px;
+  font-family: Roboto;
   color: #fff;
-  text-align: center;
   padding-top: 85px;
 }
 div.header p {
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
 }
 
 div.col {
@@ -74,11 +67,12 @@ div.card .btn-outline-dark {
 div.card .btn-outline-dark:hover {
   color: #fff;
 }
+span.old-price {
+  color: #6c757d;
+}
 
 div.footer {
   height: 120px;
   background-color: #212529;
   color: #fff;
-  text-align: center;
-  padding-top: 47px;
 }

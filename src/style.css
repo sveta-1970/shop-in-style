@@ -1,6 +1,7 @@
 div.container {
   max-width: 1512px;
   font-size: 16px;
+  font-weight: 400;
   font-family: Roboto;
   background-color: #f8f9fa;
 }
@@ -8,7 +9,7 @@ div.container-fluid {
   margin: 0 144px;
 }
 div.menu_button {
-  width: 800px;
+  width: calc(100% - 20vw);
   display: flex;
   justify-content: space-between;
 }
